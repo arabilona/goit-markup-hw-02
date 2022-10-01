@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="/"> WebStudio </a>
+      <a lang="en" class="logo" href="./index.html"><span class="logo-accent">Web</span><span class="logo-accent-second">Studio</span></a>
       <nav>
         <ul>
           <li>
-            <a href="#">Студія</a>
+            <a href="/index.html">Студія</a>
           </li>
           <li>
-            <a href="#">Портфоліо</a>
+            <a href="portfolio.html">Портфоліо</a>
           </li>
           <li>
             <a href="#">Контакти</a>
@@ -33,47 +36,51 @@
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="main-section">
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="main-button">Замовити послугу</button>
       </section>
-      <section>
+      <section class="section-description">
         <h2>Наші переваги</h2>
         <ul>
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="description-benefits">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="description-benefits">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
+            <p class="description-benefits">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="description-benefits">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+      <section class="section-description">
+        <h2 class="our-business">Чим ми займаємося</h2>
+        <ul class="list-style">
           <li>
-            <img src="./images/box1.jpg" alt="Людина друкує на комп'ютері" width="294" />
+            <img
+              src="./images/box1.jpg"
+              alt="Людина друкує на комп'ютері"
+              width="294"
+            />
           </li>
           <li>
             <img
@@ -91,38 +98,38 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team">
+        <h2 class="our-team">Наша команда</h2>
+        <ul class="list-style">
           <li>
             <img src="./images/img1.jpg" alt="Ігор_Дем'яненко" width="270" />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="workers">Ігор Дем'яненко</h3>
+            <p class="positions">Product Designer</p>
           </li>
           <li>
             <img src="./images/img2.jpg" alt="Ольга_Рєпіна" width="270" />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="workers">Ольга Рєпіна</h3>
+            <p class="positions">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/img3.jpg" alt="Микола_Тарасов" width="270" />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="workers">Микола Тарасов</h3>
+            <p class="positions">Marketing</p>
           </li>
           <li>
             <img src="./images/img4.jpg" alt="Михайло_Єрмаков" width="270" />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="workers">Михайло Єрмаков</h3>
+            <p class="positions">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <a href="/"> WebStudio </a>
       <address>
-        <ul>
+        <ul class="list-style">
           <li>
-            <a
+            <a class="map"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
