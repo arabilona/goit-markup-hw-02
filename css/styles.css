@@ -1,3 +1,6 @@
+.text {
+  font-family: "Roboto", sans-serif;
+}
 .logo-accent {
   font-family: "Raleway";
   font-style: normal;
@@ -30,6 +33,7 @@
 }
 .link {
   text-decoration: none;
+  list-style-type: none;
 }
 .link:hover {
   color: #2196f3;
@@ -60,19 +64,7 @@
   cursor: pointer;
 }
 .main-button:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
+  opacity: 0.3;
 }
 .main-button:focus {
   font-family: "Roboto";
@@ -88,9 +80,6 @@
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
-}
-.section-description {
-  background-color: #f5f5f5;
 }
 .benefits-title {
   font-style: normal;
@@ -111,22 +100,37 @@
   color: #757575;
 }
 .our-business {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .list-style {
   list-style-type: none;
+  text-decoration: none;
+  color: #212121;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.list-style:hover {
+  color: #2196f3;
+}
+.list-style:focus {
+  color: #2196f3;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 .button-style {
   font-family: "Roboto";
@@ -140,16 +144,8 @@
   cursor: pointer;
 }
 .button-style:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2196f3;
-  cursor: pointer;
 }
 .button-style:focus {
   font-family: "Roboto";
@@ -170,7 +166,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42p;
+  line-height: 1.5;  
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -204,8 +200,12 @@
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
-.letter {
+.map:hover {
+  color: #2196f3;
+}
+.contacts {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -216,48 +216,10 @@
   color: #757575;
   text-decoration: none;
 }
-.letter:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+.contacts:hover {
   color: #2196f3;
-  text-decoration: none;
 }
-.letter:focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  text-decoration: none;
-}
-.phone {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: #757575;
-  text-decoration: none;
-}
-.phone:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  text-decoration: none;
-}
-.phone:focus {
+.contacts:focus {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
