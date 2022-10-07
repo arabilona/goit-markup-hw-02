@@ -1,12 +1,22 @@
-.text {
+.body {
   font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;    
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
 }
 .logo-accent {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
@@ -16,7 +26,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #000000;
@@ -26,7 +36,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -46,46 +56,35 @@
 }
 .main-title {
   color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
+    font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .main-button {
-  background-color: #2196f3;
-  color: white;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+    font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #ffffff;
   cursor: pointer;
 }
 .main-button:hover {
   opacity: 0.3;
 }
 .main-button:focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
+  opacity: 0.3;
 }
 .benefits-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -94,17 +93,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
 }
 .our-business {
-  font-family: "Roboto";
-  font-style: normal;
+    font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -113,11 +111,10 @@
   list-style-type: none;
   text-decoration: none;
   color: #212121;
-  font-family: 'Roboto';
-font-style: normal;
+  font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 }
 .list-style:hover {
@@ -125,19 +122,12 @@ letter-spacing: 0.02em;
 }
 .list-style:focus {
   color: #2196f3;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 }
 .button-style {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   /* identical to box height, or 162% */
   letter-spacing: 0.03em;
   color: #212121;
@@ -148,16 +138,12 @@ letter-spacing: 0.02em;
   background-color: #2196f3;
 }
 .button-style:focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2196f3;
-  cursor: pointer;
+}
+.main-button, 
+.button-style {
+  font-family: inherit;
 }
 .team {
   background-color: #f5f4fa;
@@ -166,7 +152,7 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.5;  
+  line-height: 1.2;  
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -174,7 +160,7 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #212121;
@@ -183,7 +169,7 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #757575;
@@ -192,11 +178,10 @@ letter-spacing: 0.02em;
   background-color: #2f303a;
 }
 .map {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -205,29 +190,25 @@ letter-spacing: 0.02em;
 .map:hover {
   color: #2196f3;
 }
+.map:focus {
+  color: #2196f3;
+}
 .contacts {
-  font-family: "Roboto";
-  font-style: normal;
+   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
+  list-style-type: none;
 }
 .contacts:hover {
   color: #2196f3;
 }
 .contacts:focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: #2196f3;
-  text-decoration: none;
 }
 /*portfolio*/
 .list-style-portfolio {
@@ -237,21 +218,19 @@ letter-spacing: 0.02em;
   list-style-type: none;
 }
 .portfolio-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
 }
 .portfolio-description {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
